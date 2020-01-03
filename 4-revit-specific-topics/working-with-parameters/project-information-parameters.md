@@ -1,7 +1,7 @@
 ---
 description: >-
-  Project information parameters are a bit meta - they're information about the
-  document they're a part of.
+  These parameters are a bit meta - they're information about the document
+  they're a part of!
 ---
 
 # Project Information Parameters

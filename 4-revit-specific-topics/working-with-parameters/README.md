@@ -32,7 +32,7 @@ To get started with accessing a parameter using code, we’ll first need to iden
 1. Does the parameter appear in the Properties Window when you click on a Revit family instance? This means it is an [instance parameter](instance-parameters.md).
 2. If not visible in the Properties Window, does it appear when you click on the family and open the 'Edit Type' window? If so, then it's a [type parameter](instance-parameters.md).
 3. Does the parameter appear in the Manage &gt; Global Parameters dialog? If so, it's a global parameter and there are [special ways to access this](global-parameters.md). 
-4. If the parameters appears in the Manage &gt; Project Information parameter, there's a special way to access this, too.
+4. If the parameters appears in the Manage &gt; Project Information parameter, there's a [special way to access this](project-information-parameters.md), too.
 5. Does the parameter appear in the Properties Window when you click on a model or detail group? This means it is a [group instance parameter](group-parameters.md).
 6. If not visible in the Properties Window, does it appear when you click on the group and open the 'Edit Type' window? Then it's a [group type parameter](group-parameters.md).
 
