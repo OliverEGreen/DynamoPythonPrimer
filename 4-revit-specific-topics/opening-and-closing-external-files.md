@@ -26,7 +26,7 @@ Let's say I have a folder of 5 Revit Family \(.rfa\) files on my desktop and I w
 
 ![](../.gitbook/assets/batchprocessing.jpg)
 
-I simply use the Directory Path node to point at the folder of families on my desktop, read its content and input the filepaths of each .rfa file \(as strings\) to a Python Script node.
+I simply use the Directory Path node to point at the folder of families on my desktop, read its content and input the filepaths of each Revit family \(.rfa\) file, as a string to a Python Script node. For reference, the exact same workflow is also achievable using Revit model \(.rvt\) files.
 
 The Python Script node contains the following:
 
@@ -71,6 +71,9 @@ For reference, output from the Python Script node looks like this:
 * "File C:\Users\Ollie\Desktop\Families\aalto vase - tall.rfa contains 1 dimensions"
 * "File C:\Users\Ollie\Desktop\Families\Bar Chair.rfa contains 1 dimensions"
 
-  
+#### Summary
 
+The example workflow above just achieved quite a lot; in a few lines of code, we were able to read the contents of a folder, open its Revit family documents in turn and read their databases. Running this code takes a few seconds - manually checking each file would take many times longer and be a pretty dull task!
+
+The above workflow can act as a skeleton. Perhaps you want to access other kind of elements? Perhaps you want to add, delete or modify the documents. Providing you're [opening and closing a transaction](working-with-transactions.md) for each file, you should be able to do quite a lot with this starter code.
 
