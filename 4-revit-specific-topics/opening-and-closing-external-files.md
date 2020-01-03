@@ -20,6 +20,10 @@ In a nutshell, batch-processing files means we'll undertake the same series of b
 6. Close the Transaction we opened in step 4
 7. Close the document, saving it if desired.
 
+#### Worked Example
+
+Let's say I have a folder of Revit Family \(.rfa\) files and I want to open each one in turn and report back the number of dimensions in that file.
+
 In practice, this looks like:
 
 ```python
