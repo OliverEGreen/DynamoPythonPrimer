@@ -8,6 +8,10 @@ description: Revit's API has been developed over nearly two decades; let's get t
 
 Revit has had an accessible API since the early 2000s, which can be used to drive nearly every aspect of the software. As the Revit application is very complex and built to suit multiple audiences \(structure, MEP etc\) it is no surprise that its API is very large and takes a while to grasp intuitively.
 
+I often find it easiest to think of Revit as primarily being a database that we're constantly updating as we use the application. The database stores our content \(its element ID, category, location, etc\). On top of this is a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), which represents the elements' geometry/location in a 3D space and lets us interact with our elements. Finally, there's a bit of networking magic to allow us to set up worksharing across a local network / Revit Server / BIM360.
+
+Thinking of Revit in this way is totally different to how most users will experience the software. In reality, when we're writing scripts targeting Revit's API, we're just making a series of calls to a database, constrained by the rules of that API.
+
 #### Versions and History
 
 With every release and sub-release of Revit, the Autodesk team makes minor updates or additions to its API. These changes mostly relate to functional changes within the software itself \(e.g. the recent egress analysis API\).
