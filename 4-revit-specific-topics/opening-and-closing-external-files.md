@@ -10,9 +10,9 @@ One of the most powerful aspects of Revit’s API is the ability to open, close,
 
 #### Targeting Many Documents
 
-In a nutshell, batch-processing files means we'll undertake the same series of behaviours on a list of document objects, looping through each one in turn.
+In a nutshell, batch-processing files means we'll undertake the same series of behaviours on a list of document objects, looping through each one in turn. In rough terms, this means the following:
 
-1. Create a list of Revit FilePath objects.
+1. Create a list of Revit FilePath objects, based on the file paths of your target documents.
 2. Iterate through this list.
 3. Use the Revit API's Open\(\) method to open the file and create a handle for this open document.
 4. Open a transaction which targets our newly-opened document via its handle.
