@@ -8,7 +8,7 @@ description: Family -> FamilyType -> FamilyInstance -> FamilyType -> Family
 
 The Revit application uses a hard-coded hierarchy between [Family](https://www.revitapidocs.com/2015/f51d019d-6ff3-692b-d1d2-b497cab564de.htm),[ FamilyType](https://www.revitapidocs.com/2015/7f15b213-c99b-db59-3622-3280757b82d9.htm) and [FamilyInstance](https://www.revitapidocs.com/2015/0d2231f8-91e6-794f-92ae-16aad8014b27.htm) objects. A family may contain many family types, a family type may be placed many times.
 
-When working with scripts, I often need to go between accessing a FamilyInstance’s parameters, its Type Parameters and sometimes its Family parameters. The Revit API provides methods to move between these in a straightforward manner.
+When working with scripts, I often need to go between accessing a FamilyInstance’s parameters, its Type Parameters and sometimes Family. The Revit API provides methods to move between these in a straightforward manner.
 
 #### Moving Upstream from FamilyInstance -&gt; FamilyType -&gt; Family
 
@@ -24,7 +24,7 @@ family = family_type.Family
 OUT = family_instance, family_type, family
 ```
 
-#### Moving Downstream
+#### Moving Downstream from Family -&gt; FamilyTypes -&gt; FamilyInstances
 
 This way is more complicated; there is a many-to-one relationship between a Family object and its many potential FamilyType objects. Likewise, there could be many placed FamilyInstances of any FamilyType. To get all family\_types of a family, we could use:
 
