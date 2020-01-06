@@ -31,7 +31,7 @@ Becoming a Python-Dynamo master requires knowledge of:
 * The [IronPython](../hello-python/what-is-ironpython.md) programming language
 * Your application's API \(e.g. the Revit API\)
 * [The .NET Framework](what-is-the-.net-framework.md)
-* Dynamo's API
+* Some key Dynamo libraries \(e.g. [TransactionManager](../4-revit-specific-topics/working-with-transactions.md)\)
 
 ![Want to use Python in Dynamo? Don&apos;t worry, these guys have got your back.](../.gitbook/assets/thegang.png)
 
