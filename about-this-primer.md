@@ -25,5 +25,9 @@ He's also given some talks:
 Want to contribute? See something that looks wrong? You can contact the author a few ways:
 
 * \*\*\*\*[**Twitter**](https://twitter.com/Oliver_E_Green)\*\*\*\*
-* \*\*\*\*[**LinkedIn**](https://www.linkedin.com/in/oliver-green/) 
+* \*\*\*\*[**LinkedIn**](https://www.linkedin.com/in/oliver-green/)
+
+#### Copyright
+
+All contents of this primer are Copyright 2020 Oliver Green.
 
