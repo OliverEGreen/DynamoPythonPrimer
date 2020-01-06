@@ -25,7 +25,6 @@ If you've never written a line of code before - don't panic! This guide is desig
 {% hint style="info" %}
 #### Thoughts? Get in touch!
 
-The Dynamo Python Primer remains a live guidance document and is open source, so we would love to receive your thoughts, feedback and pull requests!  
-Contact details are [here](about-this-primer.md).
+The Dynamo Python Primer remains a live guidance document and is open source, so we would love to receive your thoughts, feedback and pull requests!
 {% endhint %}
 

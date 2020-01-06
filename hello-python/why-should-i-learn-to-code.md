@@ -10,9 +10,9 @@ Using Dynamo is already a form of programming. However, it trades execution spee
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-Dynamo's handsome visual interface is useful when first learning how to write programmatic logic and is especially intuitive for visual thinkers and designers.
+Dynamo's clean visual interface is useful when first learning how to write programmatic logic and is especially intuitive for visual thinkers and designers.
 
-However, like training wheels on a bicycle these constraints can soon get in the way and must eventually be transcended. Thankfully, Dynamo can be combined with Python to make the transition to writing your own code as frictionless as possible.
+However, like training wheels on a bicycle these constraints can soon get in the way. Fortunately, they can be transcended! Dynamo can be combined with Python to make the transition to writing your own code as frictionless as possible.
 
 #### The Benefits of Coding
 
