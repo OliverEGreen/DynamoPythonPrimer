@@ -9,7 +9,7 @@ Python is a programming language released by the Dutch programmer [Guido Van Ros
 As far as programming languages go, Python is very readable and is easy to pick up - especially for new coders!
 
 ```python
-print "Welcome to the Dynamo Python Primer!"
+TaskDialog.Show("Hello", "Welcome to the Dynamo Python Primer!")
 ```
 
 Despite this straightforwardness, it's a powerful and flexible language which has led to its rapid and widespread adoption among software developers all over the world.
