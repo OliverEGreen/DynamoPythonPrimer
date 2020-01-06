@@ -8,7 +8,7 @@ description: The Application Programming Interface is your window into an applic
 
 Most people will use an application via its user interface; clicking on buttons, selecting items from drop-down menus or perhaps interacting directly with geometry on their screen.
 
-What they won't know is that the developers behind many applications choose to expose certain parts of their source code, letting other programmers read, edit, create or delete certain elements in the program's database - its API.
+What they won't know is that the developers behind many applications choose to expose certain parts of their source code, letting other programmers interact with the host program to read, edit, create or delete certain elements in the program's database - its API.
 
 #### In the Restaurant
 
