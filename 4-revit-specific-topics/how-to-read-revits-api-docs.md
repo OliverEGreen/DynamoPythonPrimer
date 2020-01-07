@@ -18,7 +18,7 @@ Since this website is such an invaluable resource to those wishing to become fam
 
 A typical workflow would involve making sure you've selected the appropriate version of the API for the product you're using \(on the left pane\) and then searching the API docs for the relevant subject matter you're concerned with. 
 
-For instance, if looking to learn more about the FamilyInstance class, simply search for this in the search bar and select it from the autocomplete options. Details about this class will then appear in the details pane on the right. Further details to note about this pane \(as annotated in the image\):
+For instance, if looking to learn more about the [FamilyInstance class](https://apidocs.co/apps/revit/2019/0d2231f8-91e6-794f-92ae-16aad8014b27.htm), simply search for this in the search bar and select it from the autocomplete options. Details about this class will then appear in the details pane on the right. Further details to note about this pane \(as annotated in the image\):
 
 1. This is the name of the page you're looking at. The Revit API has over 22,000 pages, although most of these you'll probably never need to look at!
 2. This **&lt;&gt;** button will search several popular Github repositories for any code samples concerning this class. 
