@@ -14,7 +14,7 @@ Thinking of Revit in this way is totally different to how most users will experi
 
 #### Versions and History
 
-With every release and sub-release of Revit, the Autodesk team makes minor updates or additions to its API. These changes mostly relate to functional changes within the software itself \(e.g. the recent egress analysis API\).
+With every release and sub-release of Revit, the Autodesk Revit team makes minor updates or additions to its API. These changes mostly relate to functional changes within the software itself \(e.g. the recent egress analysis API\).
 
 {% hint style="info" %}
 This long history sometimes means that the Revit API can seem inconsistent or structured in unexpected ways - this often happens with older APIs, which cannot change without affecting lots of people.
