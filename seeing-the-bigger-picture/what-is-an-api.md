@@ -12,9 +12,9 @@ What they won't know is that the developers behind many applications choose to e
 
 #### In the Restaurant
 
-A common analogy for APIs is how restaurants traditionally work. A waiter will present you with a menu; a fixed set of options you can choose from. This is analogous to the application's user interface. 
+A common analogy for APIs is how restaurants traditionally work. In the traditional user interface, a waiter will present you with a menu \(buttons\); a fixed set of options you can choose from. 
 
-Accessing a program via its API means we can ditch the waiter and walk straight into the kitchen. Instead of choosing from a menu, we'll have access to every ingredient and every device in the kitchen. This gives us total control, allowing us to create completely custom orders.
+Accessing a program via its API means we can ditch the waiter and walk straight into the kitchen. Instead of choosing from a menu, we'll have access to \(almost\) every ingredient and every device in the kitchen. This gives us total control, allowing us to create completely custom orders.
 
 There is a lot of power in this. No more struggling against user interfaces wishing for functionality that the developers hadn't built yet - you're a developer now! Just make sure you don't give yourself or others food poisoning...!
 
@@ -35,7 +35,7 @@ Normally, everything that is achievable via the user interface can be driven pro
 
 A quick search will bring up dozens of guides and formal documentation for popular APIs, such as:
 
-* **Revit API**: [2019 Developer Guide](http://help.autodesk.com/view/RVT/2019/ENU/)
+* **Revit API**: [2020 Developer Guide](https://help.autodesk.com/view/RVT/2020/ENU/?guid=Revit_API_Revit_API_Developers_Guide_html)
 * **Autocad .NET API**: [Online Guidance](https://www.autodesk.com/autodesk-university/class/Introduction-AutoCAD-Softwares-NET-API-Using-C-NET-2018)
 * **Navisworks API**: [Navisworks Developer Center](https://www.autodesk.com/developer-network/platform-technologies/navisworks)
 
@@ -47,5 +47,5 @@ This guide has put together some introductory guidance for the Revit API, which 
 
 Dynamo also has an API, but if you're just starting out you''ll only need to know 1 or 2 things about it which will be covered in the [Getting Started](../getting-started/) chapter.   
   
-For the curious, current documentation for Dynamo's API can be found [here](https://dynamods.github.io/DynamoAPI/).
+For the curious, current documentation for Dynamo's API can be found [here](https://www.fuget.org/packages/DynamoVisualProgramming.Core).
 

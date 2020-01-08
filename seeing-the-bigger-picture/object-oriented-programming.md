@@ -6,7 +6,7 @@ description: OOP is a widely-adopted programming paradigm
 
 #### Introduction to OOP
 
-Since we are dealing with software, we have to understand a little bit about how software gets written. There are multiple approaches out there \(procedural programming, functional programming\) that this guide won't go into.
+Since we are dealing with software, we have to understand a little bit about how software gets written. There are multiple approaches out there \(such as procedural programming, functional programming\) that this guide won't go into.
 
 Object-oriented programming \(referred to as OOP\) is a very popular programming paradigm that has been widely-used in software development for decades. It consists of the user defining abstract **'Classes'** in their code, which have various properties and abilities. These classes are meant to represent specific things in real life, perhaps a car or a person's bank account.
 
