@@ -12,7 +12,7 @@ However, unlike other nodes, if you right-click and select **Edit...** a script 
 
 ![By default, Dynamo will fill the editor with the above code](../.gitbook/assets/pythonscripteditor.jpg)
 
-In this window, you are able to write IronPython scripts which will be directly executed as part of a Dynamo definition. To save your script, click the 'Accept Changes' button and then save the Dynamo definition it's in. Otherwise, click the 'Cancel' button to discard any changes made.
+In this window, you are able to write IronPython scripts which will be directly executed as part of a Dynamo definition. 
 
 #### Are We There Yet?
 
