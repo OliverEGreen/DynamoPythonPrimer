@@ -6,7 +6,7 @@ description: OOP is a widely-adopted programming paradigm
 
 #### Introduction to OOP
 
-Since we are dealing with software, we have to understand a little bit about how software gets written. There are multiple approaches out there \(procedural programming, functional programming\) that this guide won't go into.
+Since we are dealing with software, we have to understand a little bit about how software gets written. There are multiple approaches out there \(such as procedural programming, functional programming\) that this guide won't go into.
 
 Object-oriented programming \(referred to as OOP\) is a very popular programming paradigm that has been widely-used in software development for decades. It consists of the user defining abstract **'Classes'** in their code, which have various properties and abilities. These classes are meant to represent specific things in real life, perhaps a car or a person's bank account.
 
@@ -25,5 +25,5 @@ In a nutshell, OOP is an approach to building software that revolves around defi
 
 Confident Dynamo users will already be familiar with manipulating the main basic datatypes: _strings, integers, floats and Booleans_. While these datatypes will appear in all kinds of software, each application will have its own custom datatypes as well - these are its classes.
 
-If you use a Dynamo node to fetch a Revit document's active view, it won't be of a Boolean or an int type; it will be of a **View** type \(actually, it's long name is _Autodesk.Revit.DB.View_ and you can test this using the Object.Type node\).
+If you use a Dynamo node to fetch a Revit document's active view, it won't be of a Boolean or an int type; it will be of a **View** type \(actually, its long name is _Autodesk.Revit.DB.View_ and you can test this using the Object.Type node\).
 

@@ -13,20 +13,20 @@ But in order to learn what is all means, we'll need to understand a little bit a
 
 Dynamo was originally conceived as the open-source hobby project of [Ian Keough](https://twitter.com/ikeough) \(he's also the guy behind [Hypar](https://hypar.io/)\). Dynamo was originally built to only integrate with Revit but it also required extended functionality that the Revit API itself did not provide, such as visualising abstract geometry.  
   
-The way around this was for Ian's new application to essentially 'mirror' the roughly 1700 classes in Revit’s API with his own equivalent types - types whose functionality could be built as Dynamo required. Therefore, there is a slight and imperceptible different between Revit's classes and Dynamo's equivalents \(classes like this are called 'wrapper classes'\).
+The way around this was for Ian's new application to essentially 'mirror' the roughly 1700 classes in Revit’s API with his own equivalent types - types whose functionality could be built as Dynamo required. Therefore, there is a slight and imperceptible difference between Revit's classes and Dynamo's equivalents \(classes like this are called 'wrapper classes'\).
 
 This can be seen if we inspect the class names of Revit objects and their equivalent Dynamo objects. For example, let's look at Levels:
 
-* In Revit's, the Level class' fully-qualified name is: **Autodesk.Revit.DB.Level**
-* In Dynamo, the Level class' full-qualified name is: **Revit.Elements.Level**
+* In Revit's API, the Level class' fully-qualified name is: **Autodesk.Revit.DB.Level**
+* In Dynamo, the Level class' fully-qualified name is: **Revit.Elements.Level**
 
 #### This Matters When Coding
 
 Normally, Dynamo does all of the work converting between these two, wrapping and unwrapping elements invisibly. We don't have to worry about the nitty-gritty technicalities - except when we're coding.
 
-When writing our IronPython scripts, we might feed elements as inputs to a Python Script node, they'll still be in Dynamo's 'wrapped' types - until we unwrap them. Revit's types and Dynamo's equivalent types won't play nicely together until we do.
+When writing our IronPython scripts, we might feed elements as inputs to a Python Script node. These elements will still be in Dynamo's 'wrapped' types until we unwrap them. Revit's types and Dynamo's equivalent types won't play nicely together until we do.
 
-Unwrapping elements is actually extremely straightforward, like so:
+Unwrapping elements is very straightforward, like so:
 
 ```python
 #Boilerplate code
@@ -37,7 +37,7 @@ list_of_furniture_elements = UnwrapElement(IN[0])
 
 #### Oops I Forgot
 
-Failing to use UnwrapElement won't throw an error by itself, however you'll get errors when you to read the properties of use the methods of the wrapped types. This might look like so:
+Failing to use UnwrapElement won't throw an error by itself, however you'll get errors when you to read the properties or use the methods of the wrapped types. This might look like so:
 
 ![](../.gitbook/assets/wrappedelementerror.jpg)
 
@@ -45,9 +45,9 @@ Failing to use UnwrapElement won't throw an error by itself, however you'll get 
 
 And you'd be right, it does. You'll just need to use UnwrapElement on those elements before you can access its properties, members, etc.
 
-You won't always need to unwrap elements - just when they're passed in from outside the Python Script node. For instance, when collecting elements with a [FilteredElementCollector](fetching-revit-elements.md), we’ll be bypassing Dynamo and talking directly to Revit’s API, which returns Revit's own native types to us.
+You won't always need to unwrap elements - just when they're passed in from outside the Python Script node. For instance, when collecting elements with a [FilteredElementCollector](fetching-revit-elements.md), we’ll be bypassing Dynamo and talking directly to Revit’s API, which returns Revit's own native types to us: no unwrapping required!
 
 {% hint style="info" %}
-Note: You won't need to wrap elements back up before returning them to Python as your node output as Dynamo handles this automatically.
+Note: You won't need to wrap elements back up before outputting them from your node as Dynamo handles this automatically.
 {% endhint %}
 

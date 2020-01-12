@@ -8,7 +8,7 @@ description: "Revit's API is large and so are its documents; learn to navigate t
 
 Although Autodesk's official documentation for the Revit API can be found as a .chm file in its SDK, the Revit API is best explored by visiting [APIDocs.co](https://apidocs.co/).
 
-This site, created software developer [Gui Talarico](https://twitter.com/gtalarico), documents the APIs for Revit, Rhino, Grasshopper and more. Visit [APIDocs](https://apidocs.co/) to get a feel for reading API documentation; as a coder, this is what you'll be doing a lot.
+This site, created by software developer [Gui Talarico](https://twitter.com/gtalarico), documents the APIs for Revit, Rhino, Grasshopper and more. Visit [APIDocs](https://apidocs.co/) to get a feel for reading API documentation; as a coder, this is what you'll be doing a lot.
 
 #### Using APIDocs.Co
 
