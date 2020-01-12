@@ -45,7 +45,7 @@ This guide has put together some introductory guidance for the Revit API, which 
 
 {% page-ref page="../4-revit-specific-topics/introduction-to-revits-api.md" %}
 
-Dynamo also has an API, but if you're just starting out you''ll only need to know 1 or 2 things about it which will be covered in the [Getting Started](../getting-started/) chapter.   
+Dynamo also has an API, but if you're just starting out you'll only need to know 1 or 2 things about it which will be covered in the [Getting Started](../getting-started/) chapter.   
   
 For the curious, current documentation for Dynamo's API can be found [here](https://dynamods.github.io/DynamoAPI/).
 
