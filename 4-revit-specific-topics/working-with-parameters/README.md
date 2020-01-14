@@ -36,3 +36,9 @@ To get started with accessing a parameter using code, we’ll first need to iden
 5. Does the parameter appear in the Properties Window when you click on a model or detail group? This means it is a [group instance parameter](group-parameters.md).
 6. If not visible in the Properties Window, does it appear when you click on the group and open the 'Edit Type' window? Then it's a [group type parameter](group-parameters.md).
 
+#### RevitLookUp
+
+Another great way to understand which kind of parameter you're dealing with is to use the free [RevitLookUp](https://thebuildingcoder.typepad.com/blog/revitlookup/) addin for Revit. This lets you read \(almost\) every visible and invisible value for any Revit element. 
+
+To make installing RevitLookUp easier, [Harry Mattison](https://twitter.com/boostyourbim?lang=en) \(of the [BoostYourBIM blog](https://boostyourbim.wordpress.com/)\) has put together Windows installers, which can be found [here](https://boostyourbim.wordpress.com/2018/05/17/revit-lookup-2019-installer/).
+
