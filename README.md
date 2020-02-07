@@ -10,7 +10,7 @@ Thanks for visiting the Dynamo Python Primer. Inspired by the amazing [Dynamo Pr
 
 #### What's All This About, Then?
 
-Autodesk's Dynamo is an invaluable tool for AEC professionals; it lets you build automate workflows, analyse your designs, build parametric geometry and more. 
+Autodesk's Dynamo is an invaluable tool for AEC professionals; it lets you build automated workflows, analyse your designs, define parametric geometry and more. 
 
 Python is one of the most popular programming languages in the world. It's highly flexible, easy to learn \(even for beginners\) and is used for everything from data visualisation to machine learning.
 
@@ -25,6 +25,7 @@ If you've never written a line of code before - don't panic! This guide is desig
 {% hint style="info" %}
 #### Thoughts? Get in touch!
 
-The Dynamo Python Primer remains a live guidance document and is open source, so we would love to receive your thoughts, feedback and pull requests!
+The Dynamo Python Primer remains a live guidance document and is open source, so we would love to receive your thoughts, feedback and pull requests!  
+Contact details are [here](about-this-primer.md).
 {% endhint %}
 
