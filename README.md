@@ -20,7 +20,7 @@ Brought together, they're more than the sum of their parts. Writing Python scrip
 
 **New to Coding?**
 
-If you've never written a line of code before - don't panic! This guide is designed to help a confident Dynamo user take their first steps into programming with Python. It will introduce all the relevant topics step-by-step and will show you all the resources you need to take your custom tools further using Python.
+If you've never written a line of code before, don't panic! This guide is designed to help a confident Dynamo user take their first steps into programming with Python. It will introduce all the relevant topics step-by-step and will show you all the resources you need to take your custom tools further using Python.
 
 {% hint style="info" %}
 #### Thoughts? Get in touch!

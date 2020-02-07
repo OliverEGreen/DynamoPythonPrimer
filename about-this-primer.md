@@ -27,6 +27,8 @@ Want to contribute? See something that looks wrong? You can contact the author a
 * \*\*\*\*[**Twitter**](https://twitter.com/Oliver_E_Green)\*\*\*\*
 * \*\*\*\*[**LinkedIn**](https://www.linkedin.com/in/oliver-green/)
 
+This primer is open source and [hosted on Github](http://www.github.com/OliverEGreen/DynamoPythonPrimer) - please feel free to send any pull requests you might have.
+
 #### Copyright
 
 All contents of this primer are Copyright 2020 Oliver Green.
