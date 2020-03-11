@@ -23,6 +23,10 @@ An instance of this class it then fed as an argument to the [PickElementsByRecta
 ```python
 #Boilerplate Code
 
+#You'll also want to import the below namespace to get access
+#to the ISelectionFilter interface
+from Autodesk.Revit.UI.Selection import *
+
 class MySelectionFilter(ISelectionFilter):
 	def __init__(self):
 		pass
