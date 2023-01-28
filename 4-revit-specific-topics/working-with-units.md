@@ -22,6 +22,8 @@ The above code returns a value of 16.404, which is the same length but measured 
 
 Decimal feet isn't very useful to anyone so you'll want to convert to something more helpful. To make this conversion, we'll want to use Revit's [UnitUtils](https://apidocs.co/apps/revit/2019/128dd879-fea8-5d7b-1eb2-d64f87753990.htm) class. Furthermore, we'll be restricted to choosing value types from Revit's [DisplayUnitType](https://apidocs.co/apps/revit/2019/7d3d3306-a4c2-c577-0aeb-cca42d6cfd2f.htm) enumeration. Let's see this in action:
 
+For Revit version 2021 or lower
+
 ```python
 #Boilerplate Code
 
@@ -30,10 +32,20 @@ decimal_feet_length = detail_line.GeometryCurve.Length
 metric_length = UnitUtils.Convert(decimal_feet_length, DisplayUnitType.DUT_DECIMAL_FEET, DisplayUnitType.DUT_MILLIMETERS)
 OUT = metric_length
 ```
+For Revit version 2021 or higher
+``` py
 
+detail_line = UnwrapElement(IN[0])
+decimal_feet_length = detail_line.GeometryCurve.Length
+metric_length = Autodesk.Revit.DB.UnitUtils.Convert(decimal_feet_length, UnitTypeId.Feet, UnitTypeId.Millimeters)
+OUT = metric_length
+
+```
 #### Bonus: Converting Rotations
 
 Sometimes when passing an angle value in to the Revit API, it needs to be converted from degrees to radians first. This can also be done using UnitUtils.Convert\(\), like so:
+
+For Revit version 2021 or lower
 
 ```python
 #Boilerplate Code
@@ -43,3 +55,12 @@ radians_equivalent = UnitUtils.Convert(angle, DisplayUnitType.DUT_DECIMAL_DEGREE
 OUT = radians_equivalent
 ```
 
+For Revit version 2021 or higher
+
+```py
+#Boilerplate Code
+
+angle = 90.0
+radians_equivalent = UnitUtils.Convert(angle, UnitTypeId.Degrees, UnitTypeId.Radians)
+OUT = radians_equivalent
+```
